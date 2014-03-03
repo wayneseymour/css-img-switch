@@ -1,0 +1,63 @@
+* {
+          margin: 0;
+          padding: 0;
+}
+body {
+          font: 14px Georgia, serif;
+}
+a {
+          color: black;
+          text-decoration: none;
+}
+#switcher-wrapper {
+          margin: 20px auto;
+          position: relative;
+          width: 240px;
+}
+#switcher-wrapper a {
+          display: block;
+          height: 160px;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 240px;
+}
+#one {
+          background: url(../images/1.jpg);
+}
+#two {
+          background: url(../images/2.jpg);
+}
+#three {
+          background: url(../images/2.jpg);
+}
+#four {
+          background: url(../images/4.jpg);
+}
+#switcher-wrapper a span {
+          position: absolute;
+          width: 120px;
+          background: #eee;
+}
+#one span {
+          left: 0;
+          bottom: -35px;
+}
+#two span {
+          left: 0;
+          bottom: -65px;
+}
+#three span {
+          left: 120px;
+          bottom: -35px;
+}
+#four span {
+          left: 120px;
+          bottom: -65px;
+}
+#switcher-wrapper a:hover {
+          z-index: 1;
+}
+#switcher-wrapper a:hover span {
+          background: #ccc;
+}
